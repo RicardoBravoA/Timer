@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/lblDay"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/Timer"
+                android:text="@string/value_00"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/lblHour"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/Timer"
+                android:text="@string/value_00"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/lblMinute"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/Timer"
+                android:text="@string/value_00"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/lblSecond"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/Timer"
+                android:text="@string/value_00"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/lblDayText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/Timer"
+                android:text="@string/value_days"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/lblHourText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/Timer"
+                android:text="@string/value_hours"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/lblMinuteText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/Timer"
+                android:text="@string/value_minutes"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/lblSecondText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                style="@style/Timer"
+                android:text="@string/value_seconds"/>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/lblText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/finish"
+            android:visibility="gone"
+            style="@style/Timer"/>
+
+    </LinearLayout>
+
+</merge>
+

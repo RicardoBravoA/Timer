@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Timer</string>
+    <string name="action_settings">Settings</string>
+    <string name="concat_number">0%1$s</string>
+    <string name="value_00">00</string>
+    <string name="value_days">días</string>
+    <string name="value_hours">horas</string>
+    <string name="value_minutes">minutos</string>
+    <string name="value_seconds">segundos</string>
+    <string name="value_day">día</string>
+    <string name="value_hour">hora</string>
+    <string name="value_minute">minuto</string>
+    <string name="value_second">segundo</string>
+    <string name="finish">Finalizado</string>
+</resources>
